@@ -1,0 +1,83 @@
+
+.app {
+    display: -webkit-flex;
+    display: flex;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+.TOC{
+  padding:5px; 
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.cont{
+height: 150px;
+width: 100px;
+width:33%;
+padding:5px;
+margin:0px;
+font-size: 15px;
+background-color: rgb(243,243,243); 
+text-align: center;
+border-style:solid; 
+border-width: medium; 
+border-radius: 5px ;
+border-color: rgb(242, 125, 19);
+margin: auto;  
+
+}
+
+body{
+
+	background-color: white;
+	font-family:Georgia;
+	color: black;
+	text-align: left;
+	margin-left: 15px;
+	padding:20px;
+	text-align: center;
+}
+h1{
+	color: black;
+	text-align: center;
+}
+
+h2{
+	color: black;
+	text-align: center;
+}
+
+h3{
+margin:5px;
+text-align: center;
+}
+p{
+	border-style:solid; 
+		font-size:14px;
+	padding:10px;
+	background: rgb(243,243,243);
+	border-radius: 8px;
+	border-style:solid; 
+border-width: medium; 
+border-radius: 5px ;
+border-color: rgb(242, 125, 19);
+
+}
+
+.concept-title{
+	text-align: center;
+	font-weight: bold;
+}
+
